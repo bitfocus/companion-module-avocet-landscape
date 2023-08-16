@@ -1,7 +1,7 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
+	"id": "avo-landscape",
+	"name": "avocet-landscape",
+	"shortname": "avocet-landscape",
 	"description": "A short one line description of your module",
 	"version": "0.0.0",
 	"license": "MIT",
@@ -9,8 +9,8 @@
 	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Dan Maskell",
+			"email": "dan@zippysystems.com"
 		}
 	],
 	"runtime": {
@@ -20,7 +20,7 @@
 		"entrypoint": "../main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
+	"manufacturer": "Avocet RT Ltd",
+	"products": ["StreamDeck Interface"],
 	"keywords": []
 }

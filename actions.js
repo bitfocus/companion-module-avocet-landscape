@@ -14,6 +14,7 @@ const fs = require( 'fs' );
 
 module.exports = function (self) {
 	self.setActionDefinitions({
+<<<<<<< Updated upstream
 		// sample_action: {
 		// 	name: 'My First Action',
 		// 	options: [
@@ -30,6 +31,8 @@ module.exports = function (self) {
 		// 		console.log('Hello world!', event.options.num)
 		// 	},
 		// },
+=======
+>>>>>>> Stashed changes
 		press_action: {
 			name: 'ButtonPressed',
 			options: [

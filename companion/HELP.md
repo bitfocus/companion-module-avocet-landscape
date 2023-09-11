@@ -2,30 +2,12 @@
 This module connects to Landscape Transmission Automation
 
 ### Configuration
-* Type Add some config details here in
-* /opt/companion/module-legacy/manifests/
+* This requires that your Avocet Landscape system be configured with the latest cues panel controller
+* You must also configure the python3 process companion_cuespanel.py to be started at boot.
 * companion-module-avocet-landscape/companion/HELP.md
 
 ### Available actions
-* Set system in Show mode
-* Play the show (no Cueing) [Timeline]
-* Cue the show & wait for the play command [Timeline]
-* Stop the show [Timeline]
-* Rewind the show to frame 0 [Timeline]
-* Start recording. Details configured in GUI
-* Step forward n frames
-* Step back n frames
-* Move to a named marker on timeline
-* Move to the framenumber specified
-* Start the named sequence
-* Start the named sequence on all servers in the group
-* Enable or disable tracking an external SMPTE timecode
-* Set the framerate to n frames per second
-* Load a different show file
-* Load a different show file on all servers in a group
-* Save a different show file
-* Save a different show file on all servers in a group
-* Enable/Disable Diagnostic Graphs
-* Enable/Disable Diagnostic Stats
-* Enable/Disable Audio VU
-* Enable/Disable Channel ID
+* ButtonPressed - accepts the button name as a parameter
+* ButtonReleased - accepts the button name as a parameter
+* The button name determines the action performed by the Landscape and there are specific to each site.
+* Standard buttons names include HOLD, TAKE, MCUE, PAUSE

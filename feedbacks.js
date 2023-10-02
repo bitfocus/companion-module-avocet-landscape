@@ -14,7 +14,7 @@ const { combineRgb } = require('@companion-module/base')
 module.exports = async function (self) {
 	self.setFeedbackDefinitions({
 		ChannelState: {
-			name: 'Example Feedback',
+			name: 'Panel Button State',
 			type: 'boolean',
 			label: 'Channel State',
 			defaultStyle: {

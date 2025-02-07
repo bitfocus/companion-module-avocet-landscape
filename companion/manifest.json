@@ -1,9 +1,9 @@
 {
-	"id": "avo-landscape",
+	"id": "avocet-landscape",
 	"name": "avocet-landscape",
 	"shortname": "avocet-landscape",
 	"description": "Landscape Cues Panel",
-	"version": "1.0.2",
+	"version": "0.0.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-avocet-landscape.git",
 	"bugs": "https://github.com/bitfocus/companion-module-avocet-landscape/issues",
@@ -19,7 +19,7 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../main.js"
 	},
-	"legacyIds": [],
+	"legacyIds": ["avo-landscape"],
 	"manufacturer": "Avocet RT Ltd",
 	"products": ["StreamDeck Interface"],
 	"keywords": []
